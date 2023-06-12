@@ -25,7 +25,7 @@ new_strat = False
 returns= dm.get_equity_hedge_returns(equity_bmk, include_fi, strat_drop_list)
 
 #Add new strat
-new_strat = True
+new_strat = False
 if new_strat:
     strategy_list = ['CSDefensiveSkew']
     strategy_list1 = ['SGPulse']
